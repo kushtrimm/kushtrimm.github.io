@@ -1,26 +1,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Welcome to my Blog</title>
-        <link>https://kushtrim.github.io/</link>
-        <description>This is my cool site</description>
+        <title>Kushtrim&#39;s Blog</title>
+        <link>https://kushtrimm.github.io/</link>
+        <description>This is my blog. You are welcome to explore</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>morina.kushtrim@gmail.com (Kushtrim Morina)</managingEditor>
-            <webMaster>morina.kushtrim@gmail.com (Kushtrim Morina)</webMaster><lastBuildDate>Sat, 25 Mar 2023 13:34:30 &#43;0100</lastBuildDate>
-            <atom:link href="https://kushtrim.github.io/index.xml" rel="self" type="application/rss+xml" />
+            <webMaster>morina.kushtrim@gmail.com (Kushtrim Morina)</webMaster><lastBuildDate>Sat, 25 Mar 2023 13:28:54 &#43;0100</lastBuildDate>
+            <atom:link href="https://kushtrimm.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First_post</title>
-    <link>https://kushtrim.github.io/posts/first_post/</link>
-    <pubDate>Sat, 25 Mar 2023 13:34:30 &#43;0100</pubDate>
-    <author>Kushtrim Morina</author>
-    <guid>https://kushtrim.github.io/posts/first_post/</guid>
-    <description><![CDATA[By default all posts and pages are created as a draft. If you want to render these pages, remove the property draft: true from the metadata, set the property draft: false or add -D/&ndash;buildDrafts parameter to hugo command]]></description>
-</item>
-<item>
-    <title>My First Post</title>
-    <link>https://kushtrim.github.io/posts/my-first-post/</link>
+    <title>Hosting my blog</title>
+    <link>https://kushtrimm.github.io/hosting-my-first-blog/</link>
     <pubDate>Sat, 25 Mar 2023 13:28:54 &#43;0100</pubDate>
     <author>Kushtrim Morina</author>
-    <guid>https://kushtrim.github.io/posts/my-first-post/</guid>
-    <description><![CDATA[]]></description>
+    <guid>https://kushtrimm.github.io/hosting-my-first-blog/</guid>
+    <description><![CDATA[After long time researching and going through different solutions and also recommandations from Davy I have decided to chose Hugo as my Static Site Generator and Hugo themes for my blog.
+The idea is to host the static content in github pages: username.github.io and host static server source code in another repo called username_blog_src.
+In the end I will write a github action which will publish the content automaticaly.
+I have to do the following steps to start my blog:]]></description>
 </item>
 </channel>
 </rss>
