@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Welcome to my Blog</title>
-        <link>https://kushtrim.github.io/</link>
-        <description>This is my cool site</description>
+        <title>All Posts - Welcome to my Blog</title>
+        <link>https://kushtrim.github.io/posts/</link>
+        <description>All Posts | Welcome to my Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>morina.kushtrim@gmail.com (Kushtrim Morina)</managingEditor>
-            <webMaster>morina.kushtrim@gmail.com (Kushtrim Morina)</webMaster><lastBuildDate>Sat, 25 Mar 2023 13:34:30 &#43;0100</lastBuildDate>
-            <atom:link href="https://kushtrim.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>morina.kushtrim@gmail.com (Kushtrim Morina)</webMaster><lastBuildDate>Sat, 25 Mar 2023 13:34:30 &#43;0100</lastBuildDate><atom:link href="https://kushtrim.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>First_post</title>
     <link>https://kushtrim.github.io/posts/first_post/</link>
     <pubDate>Sat, 25 Mar 2023 13:34:30 &#43;0100</pubDate>
