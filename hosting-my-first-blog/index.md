@@ -1,25 +1,25 @@
-# Hosting my blog
+# Hosting my first blog for FREE using Hugo and GitHub Pages :smile:
 
-After long time researching and going through different solutions and also recommandations from Davy I have decided to chose Hugo as my Static Site Generator and Hugo themes for my blog.
 
-The idea is to host the static content in github pages: username.github.io and host static server source code in another repo called username_blog_src.
+After conducting extensive research and considering various options, I decided to use Hugo as my Static Site Generator and Hugo themes for my blog
 
-In the end I will write a github action which will publish the content automaticaly.
+My plan is to host the static content on Github Pages under username.github.io and host the static server source code in another repository named username_blog_src. Finally, I will create a Github action to publish the content automatically.
 
-I have to do the following steps to start my blog:
 
-1. Install hugo
-2. Create a first static hugo website
-3. Choose a theme which I will use for my blog
-4. Create github repositories for public contenct and source code
+Here are the steps I followed to start my blog:
+
+1. Install Hugo
+2. Create a first static Hugo website
+3. Choose a theme for my blog
+4. Create Github repositories for public content and source code
 5. Automate the process using GitHub Actions
 6. Publish my first blog
 
 ## Installing Hugo
 
-Hugo is a static HTML and CSS website generator, it's writen in GO and you can publish content using markdown language. Because I use Obsidian for my notes, I decided to publish also my blog content using Markdown.
+Hugo is a static HTML and CSS website generator, written in GO, and you can publish content using the Markdown language. Since I use Obsidian for my notes, I decided to publish my blog content using Markdown.
 
-I use MacBook Pro M1 notebook so I have decided to use brew to install hugo (https://gohugo.io/installation/macos/).
+I use MacOs so I have decided to use brew to install hugo (https://gohugo.io/installation/macos/).
 
 Run the following  command in terminal: 
 
@@ -27,16 +27,18 @@ Run the following  command in terminal:
 brew install hugo
 ```
 
-Note: hugo--0.111.3.arm64_ventura.bottle.tar.gz was installed
-
-When hugo is installed you can use command line: hugo. Try it with hugo --help to list all the options that you can use.
+Once Hugo is installed, you can use the command line by running hugo. Try running hugo --help to list all the options you can use.
 
 ## Create a first static hugo website
 
-First I create two repositories in git :
+I created two repositories in git:
 
-	- username.github.io - this repository will be used to host the public contect
-	- username_blog_src - this repository with be used to host the source code and it will be private repo
+- username.github.io - this repository will be used to host the public contect
+- username_blog_src - this repository with be used to host the source code and it will be private repo
+
+{{< admonition tip "Tip" false >}}
+Please switch username with your github username
+{{< /admonition >}}
 
 run the following in terminal
 
@@ -44,38 +46,37 @@ run the following in terminal
 hugo new site username.github.io
 ```
 
+And voilà! The new static site was created.
 
-Tadaa!!!. The new static site is created.
+## Choose a theme for my blog
 
-## Choose a theme which I will use for my blog
-
-Now we come to the hardest part. Choosing the theme for the blog. Because I will write a tech blog  I was focused more in blog themeses with dark theme. I evaluated the following:
+Now we come to the hardest part: choosing the theme for the blog. As I plan to write a tech blog, I focused more on blog themes with a dark mode. I evaluated the following:
 
 - PaperMod - https://github.com/adityatelange/hugo-PaperMod (GitHub stars: 4432)
 - Coder - https://github.com/luizdepra/hugo-coder (GitHub stars: 2026)
 - LoveIt - https://github.com/dillonzq/LoveIt (GitHub stars: 2279)
 
-I decided to chose LoveIt because it provides a a dark and light theme, it's more colorfull and it fits my personality and way of writing. And on top of all I Love IT.
+After evaluating these themes, I decided to choose LoveIt because it provides both a dark and light theme, is more colorful, and fits my personality and writing style. On top of all, I love it!
 
+Winner: LoveIt - https://github.com/dillonzq/LoveIt (GitHub stars: 2279)
 
-Winner:  - LoveIt - https://github.com/dillonzq/LoveIt (GitHub stars: 2279)
+It was time to install the theme. I added the theme as a submodule in my source code by running:
 
-Time to install it.  I added the theme as a submodule on my source code.
 ``` bash
 cd username.github.io/
 git submodule add https://github.com/dillonzq/LoveIt themes/LoveIt
 ```
 
-Now you have to add the following in config.toml file and replace baseURL, title, and author.name and author.email:
+Now you need to add the following to the config.toml file and replace baseURL, title, author.name, and author.email:
 
 ```toml
-baseURL = "http://example.org/"
+baseURL = "https://username.github.io/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
 
 # website title
-title = "My New Hugo Site"
+title = "My Blog"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
@@ -150,17 +151,20 @@ Go to Github, login with your credentials and go to your repositories. Click new
 
 When we created the site hugo creates a folder structure as following:
 
+```bash
 ├── username.github.io
-		├── archetypes
-	    ├── assets
-	    ├── content
-	    ├── data
-	    ├── layouts
-		├── public
-		├── resources
-		├── static
-		├── themes
-	    └── config.toml
+│   ├── archetypes
+│   ├── assets
+│   ├── content
+│   ├── data
+│   ├── layouts
+│   ├── public
+│   ├── resources
+│   ├── static
+│   ├── themes
+│   ├── config.toml
+└──  ── .gitignore
+```
 
 We need to publish the contents of public folder to our public repo: username.github.io and all others in our source repo (ignoring public folder).
 
@@ -242,8 +246,15 @@ git add .
 git commit -m 'commit my first post'
 git push
 ```
+## Conslusion
+
+In conclusion, hosting your blog on Github Pages using Hugo and LoveIt theme is an easy and effective way to create a professional-looking website. The simplicity of Hugo's static site generator, combined with the customization options of the LoveIt theme, make it easy to create a unique and visually appealing blog. Additionally, Github Pages' free hosting service and built-in version control make it an accessible option for bloggers of all levels of experience. Overall, this combination provides a straightforward and powerful solution for creating a personal or professional blog on the web.
 
 
 
 
-#hugo #loveit #blog
+
+
+
+
+

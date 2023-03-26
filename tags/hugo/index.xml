@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - Kushtrim&#39;s Blog</title>
-        <link>https://kushtrimm.github.io/posts/</link>
-        <description>All Posts | Kushtrim&#39;s Blog</description>
+        <title>hugo - Tag - Kushtrim&#39;s Blog</title>
+        <link>https://kushtrimm.github.io/tags/hugo/</link>
+        <description>hugo - Tag - Kushtrim&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>morina.kushtrim@gmail.com (Kushtrim Morina)</managingEditor>
-            <webMaster>morina.kushtrim@gmail.com (Kushtrim Morina)</webMaster><lastBuildDate>Sat, 25 Mar 2023 13:28:54 &#43;0100</lastBuildDate><atom:link href="https://kushtrimm.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>morina.kushtrim@gmail.com (Kushtrim Morina)</webMaster><lastBuildDate>Sat, 25 Mar 2023 13:28:54 &#43;0100</lastBuildDate><atom:link href="https://kushtrimm.github.io/tags/hugo/" rel="self" type="application/rss+xml" /><item>
     <title>Hosting my first blog for FREE using Hugo and GitHub Pages :smile:</title>
     <link>https://kushtrimm.github.io/hosting-my-first-blog/</link>
     <pubDate>Sat, 25 Mar 2023 13:28:54 &#43;0100</pubDate>

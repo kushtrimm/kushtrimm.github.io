@@ -7,15 +7,14 @@
             <webMaster>morina.kushtrim@gmail.com (Kushtrim Morina)</webMaster><lastBuildDate>Sat, 25 Mar 2023 13:28:54 &#43;0100</lastBuildDate>
             <atom:link href="https://kushtrimm.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Hosting my blog</title>
+    <title>Hosting my first blog for FREE using Hugo and GitHub Pages :smile:</title>
     <link>https://kushtrimm.github.io/hosting-my-first-blog/</link>
     <pubDate>Sat, 25 Mar 2023 13:28:54 &#43;0100</pubDate>
     <author>Kushtrim Morina</author>
     <guid>https://kushtrimm.github.io/hosting-my-first-blog/</guid>
-    <description><![CDATA[After long time researching and going through different solutions and also recommandations from Davy I have decided to chose Hugo as my Static Site Generator and Hugo themes for my blog.
-The idea is to host the static content in github pages: username.github.io and host static server source code in another repo called username_blog_src.
-In the end I will write a github action which will publish the content automaticaly.
-I have to do the following steps to start my blog:]]></description>
+    <description><![CDATA[After conducting extensive research and considering various options, I decided to use Hugo as my Static Site Generator and Hugo themes for my blog
+My plan is to host the static content on Github Pages under username.github.io and host the static server source code in another repository named username_blog_src. Finally, I will create a Github action to publish the content automatically.
+Here are the steps I followed to start my blog:]]></description>
 </item>
 </channel>
 </rss>
