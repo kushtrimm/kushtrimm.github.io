@@ -140,7 +140,7 @@ Open your browser and search for:
 
 http://localhost:1313/
 
-## Create github repositories for public contenct and source code
+## Create github repositories for public content and source code
 
 Go to Github, login with your credentials and go to your repositories. Click new and create the following repositories:
 
