@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://kushtrimm.github.io/sitemap.xml
+Sitemap: https://kushtrimm.blog/sitemap.xml
