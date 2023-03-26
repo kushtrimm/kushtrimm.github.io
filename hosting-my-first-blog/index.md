@@ -1,6 +1,8 @@
 # Hosting my first blog for FREE using Hugo and GitHub Pages :smile:
 
 
+
+
 After conducting extensive research and considering various options, I decided to use Hugo as my Static Site Generator and Hugo themes for my blog
 
 My plan is to host the static content on Github Pages under username.github.io and host the static server source code in another repository named username_blog_src. Finally, I will create a Github action to publish the content automatically.
