@@ -4,9 +4,19 @@
         <link>https://kushtrimm.blog/</link>
         <description>This is my blog. You are welcome to explore</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>morina.kushtrim@gmail.com (Kushtrim Morina)</managingEditor>
-            <webMaster>morina.kushtrim@gmail.com (Kushtrim Morina)</webMaster><lastBuildDate>Sat, 25 Mar 2023 13:28:54 &#43;0100</lastBuildDate>
+            <webMaster>morina.kushtrim@gmail.com (Kushtrim Morina)</webMaster><lastBuildDate>Wed, 26 Apr 2023 18:28:54 &#43;0100</lastBuildDate>
             <atom:link href="https://kushtrimm.blog/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>How to create a global carvel repository</title>
+    <link>https://kushtrimm.blog/how-to-create-a-global-carvel-repository/</link>
+    <pubDate>Wed, 26 Apr 2023 18:28:54 &#43;0100</pubDate>
+    <author>Kushtrim Morina</author>
+    <guid>https://kushtrimm.blog/how-to-create-a-global-carvel-repository/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/carvel_logo.png" referrerpolicy="no-referrer">
+            </div>After attending KubeConEU in Amsterdam and meeting with the great Carvel project team, I have decided to explore more of the Carvel project tools. I have managed to create packages and package repositories and deploy them to a Kubernetes Cluster. One of the issues I faced was to see the package that I created in all namespaces within the cluster. This is done by using Carvel global repository. In this blog post, I will describe how to create a Carvel global repository.]]></description>
+</item>
+<item>
     <title>Hosting my first blog for FREE using Hugo and GitHub Pages :smile:</title>
     <link>https://kushtrimm.blog/hosting-my-first-blog/</link>
     <pubDate>Sat, 25 Mar 2023 13:28:54 &#43;0100</pubDate>
